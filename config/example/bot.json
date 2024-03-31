@@ -1,7 +1,3 @@
-{
-  "token": "your Discord bot token",
-  "owners": [ "user ID" ],
-  "activity": "with Discord's API",
-  "defaultPrefix": ".",
-  "expUpdateInterval": 5
-}
+cp -r config/example config/development
+nvim config/development/bot.json
+nvim config/development/firebase.json
